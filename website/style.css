@@ -1,0 +1,135 @@
+﻿/*google color picker*/
+/*"https://openclassrooms.com/fr/courses/2745636-utilisez-les-effets-avances-de-css-sur-votre-site/3296979-les-transitions-css"*/
+/*"https://cubic-bezier.com/"*/
+/*https://developer.mozilla.org/fr/docs/Web/CSS/margin*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Spartan";
+}
+.divide {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    background: #1e5799;
+    background: -moz-linear-gradient(left, #1e5799 0%, #f300ff 50%, #e0ff00 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(50%,#f300ff), color-stop(100%,#e0ff00));
+    background: -webkit-linear-gradient(left, #1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    background: -o-linear-gradient(left, #1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    background: linear-gradient(to right, #1e5799 0%,#f300ff 50%,#e0ff00 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#e0ff00',GradientType=1 );
+    height: 3px;
+}
+
+
+nav {
+
+    background-color: #6a8ccc;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    min-height: 40px;
+}
+
+.yaquoi {
+    display: contents;
+    font-size: 27px;
+    list-style: none;
+}
+
+    .yaquoi a {
+        color: #d4c166;
+        text-decoration: none;
+        transition: 1s;
+        transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+        transition-duration: 1s;
+        transition-property: font-size;
+    }
+.yaquoi a:hover{
+    font-size:110%
+}
+
+body {
+    background-color: #edeae1;
+}
+#disco-cat{
+    padding:0;
+    margin:0;
+    position:relative;
+    top:30px;
+    left:33%;
+
+}
+
+#right-top {
+    color: #453206;
+    text-align:right;
+    position:relative;
+    top:-100px;
+    right:600px;
+}
+#left-top {
+    color: #453206;
+    text-align:left;
+    position:relative;
+    top:15px;
+}
+#top {
+    color: #453206;
+    text-align:center;
+    position: relative;
+    top: 15px;
+    text-shadow:20px;
+
+}
+p{
+    text-align:justify;
+    position:relative;
+    top:35px;left:10px;
+    
+}
+#castillo{
+    position:relative;
+    top:35px;
+    left:5px;
+}
+.jaimequoi {
+    display: block;
+    list-style: circle;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0x;
+    padding-inline-start: 40px;
+}
+.jaimepasquoi {
+    position:relative;
+    left:1150px;
+    top:-100px;
+    
+    display: block;
+    list-style: circle;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.autreul {
+    display:grid;
+    list-style: circle;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10x;
+    padding-inline-start: 40px;
+    margin:10px;
+    padding:20px;
+}
+#gif{
+    position:center;
+}

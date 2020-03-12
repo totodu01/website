@@ -1,0 +1,82 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #fefff0;
+}
+
+logo{
+    box-sizing:border-box;
+    position:center;
+}
+
+
+.divide {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    background: #1e5799;
+    height: 3px;
+    border-bottom: 1px solid #000;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2a4c52;
+    align-items:center;
+    height:85px;
+
+}
+.yaquoi {
+    font-family:"Spartan",sherif;
+    text-shadow:2px;
+    display: flex;
+    justify-content: space-around;
+    width: 42%;
+    font-size:14px;
+    letter-spacing:2px;
+    font-weight:bold;
+}
+
+    .yaquoi a {
+        color: #40747d;
+        font-family: "Spartan",sherif;
+        text-shadow: 2px;
+        width: 42%;
+        font-size: 17px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        text-decoration:none;
+    }
+
+.yaquoi li{
+    list-style:none;
+    align-self:center;
+
+
+
+}
+
+.yaquoi a:hover{
+    text-shadow:3px;
+    text-transform:uppercase;
+    letter-spacing:3px;
+}
+
+.yaquoi a:active{
+    color:green;
+}
+
+
+
+visibility: visible;
+-webkit-transform: translateY(0) scale(1);
+opacity: 1;
+transform: translateY(0) scale(1);
+opacity: 1;
+-webkit-transition: -webkit-transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+transition: transform 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
+transition-property: transform, opacity;
+transition-duration: 1s, 1s;
+transition-timing-function: cubic-bezier(0.6, 0.2, 0.1, 1), cubic-bezier(0.6, 0.2, 0.1, 1);
+transition-delay: 0s, 0s;
